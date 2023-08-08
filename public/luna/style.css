@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+input,
+span,
+div,
+label {
+    font-family: 'Noto Sans' !important;
+}
+
+.box-title,
+.modal-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.search-bar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-bar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#Sharemodel .modal-dialog {
+    max-width: 1024px;
+}
+
+#Sharemodel .modal-dialog .modal-body {
+    max-height: 700px;
+    overflow: auto;
+}
+
+.trans-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    width: 90%;
+}
+
+.form-date,
+.form-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-customer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-date input {
+    width: 20%;
+}
+
+.form-name input {
+    width: 40%;
+}
+
+.form-customer input {
+    width: 90%;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-width: 1px !important;
+}
